@@ -1,0 +1,8 @@
+{
+  "employees": [
+    { "id": 1, "name": "mike", "position": "pre-sales engineer" },
+    { "id": 2, "name": "tristan", "position": "devops engineer" },
+    { "id": 3, "name": "kok-yong", "position": "pre-sales manager" },
+    { "id": 4, "name": "sam", "position": "account manager" }
+  ]
+}
