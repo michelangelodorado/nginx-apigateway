@@ -1,0 +1,7 @@
+{
+  "products": [
+    { "id": 1, "name": "bigip" },
+    { "id": 2, "name": "nginx" },
+    { "id": 3, "name": "f5distributedcloud" }
+  ]
+}
