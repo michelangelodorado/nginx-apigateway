@@ -136,9 +136,10 @@ This is an example of how to list things you need to use the software and how to
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Create an API Server using [https://hub.docker.com/r/clue/json-server](https://hub.docker.com/r/clue/json-server)
-2. Clone the repo
+2. Run the docker image
    ```sh
-   docker run -d -p 80:80 -v /path/to/<name>.json:/data/db.json clue/json-server
+   docker run -d -p 85:80 -v /path/to/employees.json:/data/db.json clue/json-server
+   docker run -d -p 86:80 -v /path/to/products.json:/data/db.json clue/json-server
    ```
 
 
